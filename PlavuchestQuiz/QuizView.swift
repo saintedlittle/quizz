@@ -56,7 +56,10 @@ struct QuizView: View {
                                     }
                                     .padding()
                                     .frame(maxWidth: .infinity)
-                                    .background(background(for: answer), in: RoundedRectangle(cornerRadius: 14))
+.background {
+    background(for: answer)
+        .clipShape(RoundedRectangle(cornerRadius: 14))
+}
                                 }
                                 .buttonStyle(.plain)
                                 .disabled(selected != nil)
