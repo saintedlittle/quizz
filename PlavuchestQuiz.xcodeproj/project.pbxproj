@@ -1,0 +1,30 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+  A1 = {isa = PBXProject; attributes = {LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600;}; buildConfigurationList = A2; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A3; productRefGroup = A4; projectDirPath = ""; projectRoot = ""; targets = (A5);};
+  A2 = {isa = XCConfigurationList; buildConfigurations = (A20, A21); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  A3 = {isa = PBXGroup; children = (A6, A4); sourceTree = "<group>";};
+  A4 = {isa = PBXGroup; children = (A7); name = Products; sourceTree = "<group>";};
+  A5 = {isa = PBXNativeTarget; buildConfigurationList = A8; buildPhases = (A9, A10, A11); buildRules = (); dependencies = (); name = PlavuchestQuiz; productName = PlavuchestQuiz; productReference = A7; productType = "com.apple.product-type.application";};
+  A6 = {isa = PBXGroup; children = (A12, A13, A14); path = PlavuchestQuiz; sourceTree = "<group>";};
+  A7 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlavuchestQuiz.app; sourceTree = BUILT_PRODUCTS_DIR;};
+  A12 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlavuchestQuizApp.swift; sourceTree = "<group>";};
+  A13 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizData.swift; sourceTree = "<group>";};
+  A14 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>";};
+  B12 = {isa = PBXBuildFile; fileRef = A12;};
+  B13 = {isa = PBXBuildFile; fileRef = A13;};
+  B14 = {isa = PBXBuildFile; fileRef = A14;};
+  A9 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B12, B13, B14); runOnlyForDeploymentPostprocessing = 0;};
+  A10 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  A11 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  A8 = {isa = XCConfigurationList; buildConfigurations = (A22, A23); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  A20 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SWIFT_VERSION = 5.0;}; name = Debug;};
+  A21 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SWIFT_VERSION = 5.0;}; name = Release;};
+  A22 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = ""; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Плавучесть"; IPHONEOS_DEPLOYMENT_TARGET = 16.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.quiz.plavuchest; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug;};
+  A23 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = ""; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Плавучесть"; IPHONEOS_DEPLOYMENT_TARGET = 16.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.quiz.plavuchest; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos"; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Release;};
+ };
+ rootObject = A1;
+}
